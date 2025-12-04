@@ -11,12 +11,6 @@ public class Main {
 
         int opcion;
 
-        /* Ticket t1 = new Ticket("1234ABC", 1, LocalDateTime.now(), 60);
-        Ticket t2 = new Ticket("9876DEF", 2, LocalDateTime.now(), 30);
-
-        agenda.add(t1);
-        agenda.add(t2); */
-
         do {
             System.out.println("<<<< MENÚ DE TICKETS >>>>");
             System.out.println("1. Registrar ticket");
@@ -82,7 +76,15 @@ public class Main {
         } while (opcion != 0);
 
         sc.close();
-            
+    }
+}
+
+        /* Ticket t1 = new Ticket("1234ABC", 1, LocalDateTime.now(), 60);
+        Ticket t2 = new Ticket("9876DEF", 2, LocalDateTime.now(), 30);
+
+        agenda.add(t1);
+        agenda.add(t2); */
+
         /* Agenda vencidosZona2 = agenda.filtrarVencidos(2);
         Agenda activosZona1 = agenda.filtrarActivos(1);
 
@@ -94,5 +96,3 @@ public class Main {
 
         System.out.println("<<< Tickets activos en la zona 1 >>>");
         System.out.println(activosZona1); */
-    }
-}
